@@ -18,9 +18,6 @@ Open a terminal and run the following Git command:
 _You can use Yarn or NPM_
 
     npm install or yarn install
-_If you get an error like ```Error: EACCES: permission denied, access '/usr/local/lib/node_modules' ```, run it together_
-
-    sudo npm install
     
 ## Start working
     npm run serve or yarn run serve
