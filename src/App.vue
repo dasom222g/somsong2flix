@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <router-link to="/">Home </router-link>
-    <router-link to="/about">About</router-link>
+  <div class="test">
+    <router-link to="/" class="test__anchor">Home </router-link>
+    <router-link to="/about" class="test__anchor">About</router-link>
   </div>
   <router-view />
 </template>
