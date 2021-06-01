@@ -10,6 +10,17 @@ module.exports = {
     '@vue/prettier',
     '@vue/prettier/@typescript-eslint',
   ],
+  overrides: [
+    {
+      files: ['**/*.ts', '**/*.tsx', '**/*.js'],
+      parser: '@typescript-eslint/parser',
+      env: {
+        browser: true,
+        node: true,
+        es6: true,
+      },
+    },
+  ],
   parserOptions: {
     ecmaVersion: 2020,
   },
