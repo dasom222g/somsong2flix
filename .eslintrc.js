@@ -16,15 +16,14 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'quotes': [2, 'single', {
-      'avoidEscape': true,
-      'allowTemplateLiterals': true
-    }],
-    // 'jsx-quotes': [2, 'prefer-single'],
-    // 'quotes': [2, 'single', {
-    //   'avoidEscape': true,
-    //   'allowTemplateLiterals': true  
-    // }],
-    'semi': [2, 'never'],
+    quotes: [
+      2,
+      'single',
+      {
+        avoidEscape: true,
+        allowTemplateLiterals: true,
+      },
+    ],
+    semi: [2, 'never'],
   },
 }
