@@ -10,7 +10,16 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'HelloWorld',
   props: {
-    msg: String,
+    msg: {
+      type: [String, Number],
+      required: true,
+      default: '',
+    },
+    exampleArray: {
+      type: Array,
+      required: false,
+      default: () => [],
+    },
   },
 })
 </script>
