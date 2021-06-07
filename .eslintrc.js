@@ -36,5 +36,11 @@ module.exports = {
       },
     ],
     semi: [2, 'never'],
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
   },
 }
